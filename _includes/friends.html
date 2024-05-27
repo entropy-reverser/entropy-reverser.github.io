@@ -1,9 +1,9 @@
-{% if site.friends %}
+{% if site.resume %}
 <hr>
-<h5>FRIENDS</h5>
+<h5>RESUME</h5>
 <ul class="list-inline">
-  {% for friend in site.friends %}
-  <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+  {% for resume in site.resume %}
+  <li><a href="{{resume.href}}">{{resume.title}}</a></li>
   {% endfor %}
 </ul>
 {% endif %}
