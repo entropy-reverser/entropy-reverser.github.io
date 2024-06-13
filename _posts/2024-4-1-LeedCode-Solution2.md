@@ -5,7 +5,7 @@ date: 2024-04-01 12:00:00
 layout: post
 author: "逆熵人"
 header-style: text
-hidden: true
+catalog: true
 tags:
   - 数据结构与算法
   - PLF (编程语言基础)
