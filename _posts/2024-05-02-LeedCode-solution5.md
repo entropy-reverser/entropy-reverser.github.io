@@ -1,6 +1,6 @@
 ---
 title: "LeedCode算法设计练习专题"
-subtitle:"最长回文子串(详解)"
+subtitle: "最长回文子串"
 date: 2024-05-02 12:00:00
 layout: post
 author: "逆熵人"
