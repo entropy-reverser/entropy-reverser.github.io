@@ -1,4 +1,4 @@
----
+![Snipaste_2024-06-17_14-39-53](https://github.com/entropy-reverser/entropy-reverser.github.io/assets/121794514/7253ef4f-3f94-4a43-9e3f-367339947b57)---
 layout:     post
 title:      "基于SD扩散模型的生成作品展示"
 subtitle:   "使用SD Web UI工作流，基于多种checkpoint大模型配合lora controlnet等微调模型"
@@ -35,3 +35,18 @@ diffusion 与 latent diffusion的区别，可以理解为 diffusion直接在原�
 SD主体结构主要包括三个模型：**autoencoder** （variantional auto-encoder）：encoder将图像压缩到latent空间，而decoder将latent解码为图像；
 **CLIP text encoder**：提取输入text的text embeddings，通过cross attention方式送入扩散模型的UNet中作为condition；
 **UNet**：扩散模型的主体，用来实现文本引导下的latent生成
+
+
+
+![img](/img/AI_post/latent.png)
+
+---
+
+
+## 作品展示（由于设备性能问题，暂时不追求极致的画面质量）
+
+> **1**   checkpoint:基于国风武侠/Chosen Chinese styl 大模型   Trigger Words:CHINESE STYLE   lora:CG古风
+
+![img](/img/AI_post/Snipaste_2024-06-17_14-39-53.jpg)         ![img](/img/AI_post/Snipaste_2024-06-17_14-52-03.jpg)
+
+
