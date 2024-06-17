@@ -49,4 +49,44 @@ SD主体结构主要包括三个模型：**autoencoder** （variantional auto-en
 
 ![img](/img/AI_post/Snipaste_2024-06-17_14-39-53.jpg)         ![img](/img/AI_post/Snipaste_2024-06-17_14-52-03.jpg)
 
+![img](/img/AI_post/Snipaste_2024-06-17_14-53-28.jpg)         ![img](/img/AI_post/Snipaste_2024-06-17_14-54-30.jpg)
+
+```
+prompt:-Hanama wine, 1boy, male focus, black hair, solo, sitting, long sleeves, water, robe,
+smoking, short hair, ripples, cigarette, glasses, chinese clothes<lora:Hanama wine-000018:0.8>,
+
+
+Negative prompt: EasyNegative,badhandsv5-neg,Subtitles,word,
+```
+
+
+
+
+> **2**  checkpoint:XXMixDream, SDXL模拟器, 手绘/彩绘/手工画/游戏原画   lora:鎏金暗香, 凤凰_1.0
+
+![img](/img/AI_post/Snipaste_2024-06-17_15-01-44.jpg)      
+```
+prompt:
+(fèng huáng,wings,phoenix):1.3,sky,cloud,front view,(look at viewer,outdoor,full body):1.7\),
+Background\((full moon,flower,daisy,birds,lily,lotus,grassland):1.5,sky,forest,lake\),
+masterpiece,best quality,unreal engine 5 rendering,movie light,movie lens,movie special effects,detailed details,HDR,UHD,8K,CG wallpaper
+
+
+negative:
+blurry,low quality,bad anatomy,sketches,lowres,normal quality,worstquality,signature,
+watermark,cropped,bad proportions,out of focus, (worst quality, low quality:1.4),
+monochrome,zombie,(interlocked fingers),(worst quality, low quality:2),monochrome,
+zombie,overexposure,watermark,text,bad anatomy,bad hand,extra hands,extra fingers,(extra digit and hands and fingers and legs and arms:1.4),(deformed fingers:1.2),(long fingers:1.2),(bad-artist-anime),extra legs,lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, 
+normal quality, jpeg artifacts, signature, watermark, username
+
+Sampler
+DPM++ 2M Karras
+Steps
+30
+CFG
+7
+
+```
+
+
 
