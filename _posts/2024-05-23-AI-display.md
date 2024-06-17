@@ -17,4 +17,4 @@ tags:
 
 
 
-![ghost.鬼魂](https://github.com/entropy-reverser/entropy-reverser.github.io/blob/master/img/AI_post/checkpoint_ghost.jpg)
+![ghost](/img/AI_post/checkpoint_ghost.jpg)
