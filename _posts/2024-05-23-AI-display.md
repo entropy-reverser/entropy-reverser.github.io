@@ -1,4 +1,4 @@
-![Snipaste_2024-06-17_14-39-53](https://github.com/entropy-reverser/entropy-reverser.github.io/assets/121794514/7253ef4f-3f94-4a43-9e3f-367339947b57)---
+---
 layout:     post
 title:      "基于SD扩散模型的生成作品展示"
 subtitle:   "使用SD Web UI工作流，基于多种checkpoint大模型配合lora controlnet等微调模型"
